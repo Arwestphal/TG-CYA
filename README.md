@@ -2,7 +2,8 @@
 
 ## Game Functions
 
-graph TD
+```mermaid
+flowchart TD
   a[Choose Your Adventure] --> b[user input]
   b -- 0 --> quit{quit}
   b -- 1 --> qd[Quick draw]
@@ -20,3 +21,4 @@ graph TD
   g -- valid --> h[page = choice]
   g -- invalid --> g
   h --> d
+```
