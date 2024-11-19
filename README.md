@@ -9,7 +9,7 @@
 ## With bash/powershell:
 
 * Download code
-* cd into gamesclass\TG-CYA\src folder
+* cd into TG-CYA\src folder
 * to run: python .\TG-CYA.py
 
 # Mermaid charts
