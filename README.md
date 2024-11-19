@@ -2,7 +2,7 @@
 
 ## Game Functions
 
-'''graph TD
+graph TD
   a[Choose Your Adventure] --> b[user input]
   b -- 0 --> quit{quit}
   b -- 1 --> qd[Quick draw]
@@ -20,4 +20,3 @@
   g -- valid --> h[page = choice]
   g -- invalid --> g
   h --> d
-'''
