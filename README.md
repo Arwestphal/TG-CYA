@@ -1,3 +1,9 @@
+# How To Run
+
+* Download code
+* Paste in code editor
+* Run code
+
 # Mermaid charts
 
 ## Game Functions
