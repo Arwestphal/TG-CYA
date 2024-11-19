@@ -1,8 +1,16 @@
 # How To Run
 
+## With code editor:
+
 * Download code
 * Paste in code editor
-* Run code
+* Run code (Ctrl f5)
+
+## With bash/powershell:
+
+* Download code
+* cd into gamesclass\TG-CYA\src folder
+* to run: python .\TG-CYA.py
 
 # Mermaid charts
 

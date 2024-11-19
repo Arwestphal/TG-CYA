@@ -49,16 +49,13 @@ island = [
 ]
 
 def cya():
-  running = True
   story = []
+  running = True
   while running:
-    print("Welcome to Choose Your Adventure. Would you like to play Quickdraw (Enter 1), Zombie Survival (Enter 2), or Island Survival (Enter 3), (0 to quit)")
-    print("")
-    storychoice = int(input("1, 2, or 3?"))
-    print("")
+    print("\nWelcome to Choose Your Adventure. Would you like to play Quickdraw (Enter 1), Zombie Survival (Enter 2), or Island Survival (Enter 3), (0 to quit)")
+    storychoice = int(input("\n1, 2, or 3?"))
     while storychoice not in [0, 1, 2, 3]:
-      storychoice = int(input("invalid, enter: 0, 1, 2, or 3?"))
-      print("")
+      storychoice = int(input("\ninvalid, enter: 0, 1, 2, or 3?"))
     if storychoice == 0:
       running = False
     elif storychoice == 1:
@@ -74,16 +71,13 @@ def cya():
         text = selection[0]
         options = selection[1:]
         opt_text = ("options: " + str(options))
-        print(text)
-        print("")
-        choice = int(input(opt_text))
-        print("")
+        print("\n" + text)
+        choice = int(input("\n" + opt_text))
         while choice not in options and choice != 0:
-          choice = int(input("invalid, " + opt_text))
-          print("")
+          choice = int(input("\ninvalid, " + opt_text))
         if choice in options:
           selection = story[choice]
         elif choice == 0:
           game = False
-  print("Thank you for playing Choose Your Adventure")
+  print("\nThank you for playing Choose Your Adventure")
 cya()
